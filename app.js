@@ -1,18 +1,23 @@
 const moviesObject = {
-  "👸👹🌹": "Beauty And The Beast",
-  "🧙👓⚡": "Harry Potter",
-  "🦇🃏 ": "Joker",
-  "👩‍❤️‍👨🚢🥶": "Titanic",
-  "👻👻🔫": "Ghostbusters",
-  "🐜👨 ": "Antman",
-  "🐀👨‍🍳 ": "Ratatouille",
-  "🖊️📓👩‍❤️‍👨": "The notebook",
-  "😈👗👠": "Devil Wears Prada",
-  "📱🍎 ": "Jobs",
-  "🎉🍺🎊❎": "This Is the End",
+  "🍾🥴": "PK",
+  "🦹": "Krrish",
+  "👨‍🦰🔁👩‍🦰": "Dream Girl",
+  "👮🦾": "Singham",
+  "🧑‍💼 -> '' ": "Mr. India",
+  "👨‍🦰👴🏽🧑🏽‍🦱 + 🤣🤣😂": "Phir Hera Pheri",
+  "🐀👨‍🍳": "Ratatouille",
+  "👨🏼🧔🏽‍♂️👨🏽‍🦰 + 🚂🏫🎓 + 🤣🤣🤣": "3 Idiots",
+  "🧑🏽‍⚕️<❌🙎🏽‍♂️ + 💞 + 🏫🎓 + 🤣🤣🤣": "Munna Bhai MBBS",
+  "⭕💰 + 🤣🤣": "Golmaal",
+  "🧑🏽‍💼🔫🔫🔪💰": "Don",
+  "🥁💰 + 🤣🤣": "Dhamaal",
   "🔍🐟 ": "Finding Nemo",
-  "👸📔 ": "Princess Diaries",
-  "🐔🏃 ": "Chicken Run",
+  "🥁 + 🤣🤣": "Dhol",
+  "🏍️🛣️": "Dhoom",
+  "🙏🏽🤲🏽😇": "Thank God",
+  "📰👍🏽👶🏽": "Good Newwz",
+  "👸📔": "Princess Diaries",
+  "😊😔": "Kabhi Khushi Kabhie Gham",
 };
 
 const container = document.querySelector(".container");
@@ -121,4 +126,8 @@ const init = () => {
 };
 window.onload = () => {
   init();
+};
+
+document.getElementById("resetBtn").onclick = () => {
+  window.location.reload();
 };

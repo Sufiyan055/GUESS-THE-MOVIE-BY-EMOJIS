@@ -87,3 +87,27 @@ body {
   border-color: #9e9ea6;
   color: #9e9ea6;
 }
+#resetBtn {
+  padding: 17px 10px;
+  background-color: rebeccapurple;
+  color: #fff;
+  outline: none;
+  border: 1px solid #000;
+  border-radius: 50%;
+  box-shadow: 0px 0px 1px 1px;
+  position: absolute;
+  top: 75%;
+  left: 68%;
+  cursor: pointer;
+  box-shadow: 0 7px #000000;
+}
+#resetBtn:active {
+  box-shadow: 0 0 #000000;
+  transform: translateY(7px);
+}
+
+@media screen and (max-width: 1402px) {
+  #resetBtn {
+    top: 90%;
+  }
+}
