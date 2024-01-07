@@ -10,6 +10,9 @@ body {
   height: 100vh;
   background: linear-gradient(#7cb9e8, #318ce7);
 }
+.h1Movie {
+  text-align: center;
+}
 .wrapper {
   width: 90%;
   max-width: 500px;
